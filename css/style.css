@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', serif;
+}
+
+/* navbar */
+/* logo-navbar */
+.navbar{
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar .logo h2{
+    font-family: 'montserrat', serif;
+    color:rgb(187, 127, 36);
+}
+
+
+.navbar .listnav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 20rem;
+    justify-content: space-between;
+    background-color: white;
+}
+.navbar .listnav li{
+    list-style-type: none;
+    cursor: pointer;
+}
+.navbar .listnav li::after{
+    content: "";
+    border-bottom: .2rem solid rgb(187, 127, 36);
+    padding-bottom: .3rem;
+    display: block;
+    transform: scaleX(0);
+    transition: .1s ease;
+}
+.navbar .listnav li:hover::after{
+    transform: scaleX(.8);
+}
