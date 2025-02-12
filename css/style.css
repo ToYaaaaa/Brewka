@@ -134,3 +134,38 @@
     font-size: 2rem;
     text-decoration: underline;
 }
+
+/* footer */
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    line-clamp: inherit;
+    align-items: center;
+    text-align: center;
+}
+
+/* Footer logo */
+.footer .logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.footer .logo p{
+    font-family: 'montserrat', serif;
+    color:rgb(187, 127, 36);
+}
+.footer .logo span{
+    font-family: 'montserrat', serif;
+    color: #4B2E2E;
+}
+
+/* Footer socialmedia */
+.footer .socialmedia{
+    display: flex;
+    justify-content: space-around;
+    width: 5rem;
+    /* background-color: aqua; */
+}
+.footer .socialmedia i{
+    cursor: pointer;
+}
